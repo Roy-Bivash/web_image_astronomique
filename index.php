@@ -1,5 +1,5 @@
 <?php
-    $api_url = "https://api.nasa.gov/planetary/apod?api_key=Rldo8brTtf22uFX6gCfwrOWbfoFur4MIUVO37SVj";
+    $api_url = "https://api.nasa.gov/planetary/apod?api_key=???";
     $raw = file_get_contents($api_url);
     $json = json_decode($raw);
     
